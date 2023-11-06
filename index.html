@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghita - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>GHITA</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm [GHITA], an aspiring web developer on a journey to explore the exciting world of programming. While I'm relatively new to coding, I have a strong passion for technology and a desire to create innovative and user-friendly websites. I've embarked on this programming adventure to turn my curiosity and creativity into functional web solutions.
+
+            As a beginner, I'm eagerly learning the fundamentals of web development, including HTML, CSS, and JavaScript. Every line of code I write is a step toward my goal of becoming a proficient web developer. I believe in the power of continuous learning and enjoy tackling challenges head-on.
+        
+            When I'm not engrossed in code, I love [mention a hobby or interest that showcases your personality and dedication]. I'm excited to connect with fellow developers and collaborate on exciting projects that will help me grow in this ever-evolving field. Let's learn and create together!</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of project 1. You can include information about the technologies used and the project's purpose.</p>
+            <a href="project1-demo.html" target="_blank">Demo</a>
+            <a href="project1-code.html" target="_blank">Code</a>
+        </div>
+    
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of project 2. Include details about your role, challenges, and achievements in the project.</p>
+            <a href="project2-demo.html" target="_blank">Demo</a>
+            <a href="project2-code.html" target="_blank">Code</a>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: ghitaeddarrie15@gmail.com</p>
+            <p>Phone: (+212)616660211</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/eddarrie-ghita-bba32a272/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Send me a message</h3>
+            <form action="process_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>
